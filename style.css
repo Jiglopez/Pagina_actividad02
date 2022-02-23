@@ -1,0 +1,328 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    #contenedor{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+   
+    }
+    #encabezado{
+        width:100%;
+        height: 200px;
+        background-image: url(../img/bufala1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+    }
+
+    #encabezado h1{
+        margin:0px auto;
+        line-height: 295px;
+        font-size: 68pt;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: black;
+        -webkit-text-stroke: 1.5px whitesmoke;
+
+    }
+
+
+#navegacion{
+    width:100%;
+    background-color:  green;
+    justify-content: space-between;
+    
+
+}
+
+#navegacion ol{
+    display: flex;
+    padding:0px;
+    margin:0px;
+    border: black 4px solid;
+    border-bottom: black 1px solid ;
+    
+
+}
+
+#navegacion ol li{
+    list-style: none;
+    border-right: 3px solid black;
+    display: block;
+    
+    }
+
+#navegacion ol li a{
+    color: whitesmoke ;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 18px;
+    display: table;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    
+    }
+
+    .imagen_cuadrada{
+        width: 190px;
+        height: 160px;
+        position: absolute;
+        float: right;
+        margin-right:10px;
+        line-height: 150px;
+        margin-top: 25px;
+        margin-left: 1015px;
+        
+        }
+
+#cuerpo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+    background-color: cornsilk;
+    font-size: 14pt;
+    border: black 5px solid;
+    -webkit-text-stroke: 2px black;
+    border-bottom: black 4px solid;
+
+}
+
+#cuerpo_2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+    background-color: cornsilk;
+    font-size: 14pt;
+    border: black 5px solid;
+    -webkit-text-stroke: 2px black;
+    border-bottom: black 4px solid;
+
+}
+
+#cuerpo_3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+    background-color: cornsilk;
+    font-size: 14pt;
+    border: black 5px solid;
+    -webkit-text-stroke: 2px black;
+    border-bottom: black 4px solid;
+
+}
+
+#cuerpo_4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+    background-color: cornsilk;
+    font-size: 14pt;
+    border: black 5px solid;
+    -webkit-text-stroke: 2px black;
+    border-bottom: black 4px solid;
+
+}
+
+#cuerpo_5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+    background-color: cornsilk;
+    font-size: 14pt;
+    border: black 5px solid;
+    -webkit-text-stroke: 2px black;
+    border-bottom: black 4px solid;
+
+}
+
+#cuerpo_6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+    background-color: cornsilk;
+    font-size: 14pt;
+    border: black 5px solid;
+    -webkit-text-stroke: 2px black;
+    border-bottom: black 4px solid;
+
+}
+
+.sub_titulo1{
+    text-align: left;
+
+}
+
+.sub_titulo2{
+    text-align: right;
+
+}
+
+.sub_titulo3{
+    text-align: left;
+
+}
+
+.sub_titulo4{
+    text-align: right;
+
+}
+
+.imagen_cuerpo{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-right: 10px;
+    line-height: 150px;
+    margin-top: -172px;
+    margin-left: 630px;
+
+
+}
+
+.imagen_cuerpo2{
+    width: 400px;
+    height: 120px;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: -18px;
+    margin-right: 630px;
+    
+}
+
+.marquesina{
+    background-color:green;
+    color: black;
+    -webkit-text-stroke: 0.0015px white;
+
+}
+
+
+#pie{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: cornsilk;
+    color: green;
+    border: black 4px solid;
+    border-top: black 0.5px solid;
+
+}
+
+/* //////////////////////////////////////////// */
+
+.sub_titulo1_html2{
+    text-align: center;
+
+}
+
+.parrafo1{
+    text-align: center;
+    padding-left:15%;
+    padding-right: 15%;
+    color: black;
+    -webkit-text-stroke: 0.01px whitesmoke;
+    font-size: 16pt;
+    
+}
+
+/* //////////////////////////////////////////// */
+
+.ol_html3{
+    list-style: circle;
+    display: block;
+    padding-left:  25%;
+    padding-right: 25%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-text-stroke: 0.01px whitesmoke;
+    font-size: 16pt;
+    color: black;
+
+}
+
+/* //////////////////////////////////////////// */
+
+#cuerpo_form{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    -webkit-text-stroke: 0.001px whitesmoke;
+    font-size: 14pt;
+    text-align: center;
+
+}
+
+#cuerpo_form h1{
+    -webkit-text-stroke: 2px black;
+    color: green;
+
+}
+
+
+#cuerpo_form form{
+    padding-top: 15px;
+  
+}
+
+.caja_txt{
+    border-radius: 2px;
+    width:200px;
+    height: 25px;
+
+}
+
+.text_area{
+    width:200px;
+    border-radius: 2px;
+    height: 25px;
+    height: 150px;
+
+}
+
+.boton{
+    border-radius: 2px;
+    width: 90px;
+    height: 25px;
+    background-color: green;
+    color: white;
+    
+}
+
+@media (max-width: 1000px){
+
+    #navegacion ol{
+        width: auto;
+        display: block;
+        border: black 4px solid;
+    }
+
+    #navegacion ol li{
+        
+        border: black 2px solid;
+        }
+
+    .imagen_cuadrada{
+        margin-right: 30%;
+        margin-left: 70%;
+        
+    }
+
+    .imagen_cuerpo{
+        margin-right: 50%;
+        margin-left: 60%;
+        height: 200px;
+        width: 300px;
+
+    }
+
+    .imagen_cuerpo2{
+        margin-right: 60%;
+        margin-left: 0%;
+        height: 90px;
+        width: 175px;
+
+    }
+
+}
+
+
